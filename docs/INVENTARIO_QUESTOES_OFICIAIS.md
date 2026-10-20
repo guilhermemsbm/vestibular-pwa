@@ -65,6 +65,7 @@ Arquivo de questões comentadas da Revista do Vestibular: https://www.revista.ve
 
 - [Lote 01 — ENEM 2024, 1º dia, caderno 1 azul](LOTE_01_ENEM_2024_AUDITORIA.md): questões candidatas 6, 7 e 8.
 - [Lote 02 — ENEM 2023, 1º dia, caderno 1 azul](LOTE_02_ENEM_2023_AUDITORIA.md): questões candidatas 6, 7 e 8.
+- [Lote 03 — ENEM 2022, 1º dia, caderno 1 azul](LOTE_03_ENEM_2022_AUDITORIA.md): questões candidatas 6, 7 e 8.
 - Os seis itens têm origem/caderno e letras de gabarito localizados em fontes oficiais, mas ainda não estão publicados como questões jogáveis; conferência final, explicação e política de reprodução pendentes.
 
 ## Diretório de fontes oficiais por edição — links iniciais verificados
