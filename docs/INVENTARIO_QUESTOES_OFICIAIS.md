@@ -38,10 +38,10 @@ Arquivo de questões comentadas da Revista do Vestibular: https://www.revista.ve
 ## Status inicial do repositório
 
 - [x] O arquivo `questions.json` foi inspecionado antes da criação deste inventário.
-- [x] Existem 30 questões atualmente no banco.
-- [x] Duas questões estão marcadas como oficiais: UERJ 2015, 1º Exame de Qualificação, questões 4 e 7.
-- [x] Ambas têm referência ao PDF oficial de questões comentadas e campo `gabaritoVerificado: true`.
-- [ ] Conferir se cada uma das duas questões oficiais tem link separado para o gabarito oficial definitivo. Até isso ser verificado, não considerar a auditoria completa de metadados finalizada.
+- [x] As 30 questões anteriores foram retiradas do banco ativo e arquivadas em `data/questions-authoral-draft.json` para não apresentar conteúdo autoral/adaptado como oficial.
+- [x] O banco ativo `questions.json` está temporariamente vazio até a inclusão de questões oficiais verificadas.
+- [x] Os dois itens antes marcados como oficiais foram reclassificados no arquivo de rascunhos: enunciados/alternativas eram adaptações, não reproduções fiéis verificadas da prova. Não contam como questões oficiais incluídas.
+- [ ] Incluir questões oficiais com prova e gabarito direto, após verificação item a item.
 - [ ] ENEM: inventário por edição, aplicação, área, caderno-base e gabarito.
 - [ ] UERJ: inventário por ano, etapa/exame, prova e gabarito.
 - [ ] Auditar questões anuladas, retificações e equivalência entre cadernos.
