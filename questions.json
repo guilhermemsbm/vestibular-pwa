@@ -126,8 +126,9 @@
     "origem": "Oficial",
     "anoProva": 2015,
     "numeroQuestao": 4,
-    "fonteUrl": "https://www.revista.vestibular.uerj.br/questao/busca-questao-imprimir.php?aseq_area=1&sb=Buscar",
-    "gabaritoVerificado": true
+    "fonteUrl": "https://www.revista.vestibular.uerj.br/arquivos/pdf/questao/20.pdf",
+    "gabaritoVerificado": true,
+    "fonteDescricao": "Revista Eletrônica do Vestibular da UERJ — 1º Exame de Qualificação 2015, Linguagens"
   },
   {
     "id": "uerj-2015-ling-007",
@@ -148,8 +149,9 @@
     "origem": "Oficial",
     "anoProva": 2015,
     "numeroQuestao": 7,
-    "fonteUrl": "https://www.revista.vestibular.uerj.br/questao/busca-questao-imprimir.php?aano=2015",
-    "gabaritoVerificado": true
+    "fonteUrl": "https://www.revista.vestibular.uerj.br/arquivos/pdf/questao/20.pdf",
+    "gabaritoVerificado": true,
+    "fonteDescricao": "Revista Eletrônica do Vestibular da UERJ — 1º Exame de Qualificação 2015, Linguagens"
   },
   {
     "id": "mat-razao-002",
