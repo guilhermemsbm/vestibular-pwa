@@ -1,4 +1,4 @@
-const CACHE_NAME = "trilha-vest-static-v1";
+const CACHE_NAME = "trilha-vest-static-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
