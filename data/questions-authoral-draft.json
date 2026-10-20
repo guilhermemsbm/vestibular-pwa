@@ -1,5 +1,5 @@
 {
-  "aviso": "Rascunhos autorais arquivados fora do banco ativo. Não são carregados pelo aplicativo. Só avaliar sua inclusão depois de concluir e auditar o banco oficial, conforme docs/INVENTARIO_QUESTOES_OFICIAIS.md.",
+  "aviso": "Arquivo de rascunhos autorais/adaptações arquivado fora do banco ativo. Não é carregado pelo aplicativo. Só avaliar inclusão após concluir e auditar o banco oficial, conforme docs/INVENTARIO_QUESTOES_OFICIAIS.md. Itens adaptados a partir de questões oficiais não são reproduções oficiais.",
   "questoes": [
     {
       "id": "mat-porcentagem-001",
@@ -504,6 +504,52 @@
       "respostaCorreta": 2,
       "explicacao": "Direitos políticos e sociais foram conquistados historicamente. A cidadania é dinâmica e pode se ampliar por mobilização social.",
       "origem": "Autoral"
+    },
+    {
+      "id": "uerj-2015-ling-004",
+      "vestibular": "UERJ",
+      "disciplina": "Linguagens",
+      "materia": "Inferência e pressuposição",
+      "dificuldade": "Média",
+      "enunciado": "A frase “Todas as vozes terão que ser ouvidas, e com muita atenção à voz daqueles que nunca são ouvidos” pressupõe a existência de:",
+      "alternativas": [
+        "testemunhas que omitiram informações em um caso específico.",
+        "falhas técnicas frequentes nos meios de comunicação.",
+        "grupos da população que costumam ser excluídos do diálogo público.",
+        "imparcialidade absoluta nos julgamentos sociais.",
+        "ausência de opiniões divergentes na sociedade."
+      ],
+      "respostaCorreta": 2,
+      "explicacao": "A expressão “daqueles que nunca são ouvidos” pressupõe que existem grupos cujas experiências e opiniões são deixadas de fora do debate público.",
+      "origem": "Autoral adaptada de questão oficial",
+      "anoProva": 2015,
+      "numeroQuestao": 4,
+      "fonteUrl": "https://www.revista.vestibular.uerj.br/arquivos/pdf/questao/20.pdf",
+      "fonteDescricao": "Revista Eletrônica do Vestibular da UERJ — 1º Exame de Qualificação 2015, Linguagens",
+      "observacao": "Enunciado/alternativas foram adaptados e não devem ser tratados como reprodução fiel de questão oficial."
+    },
+    {
+      "id": "uerj-2015-ling-007",
+      "vestibular": "UERJ",
+      "disciplina": "Linguagens",
+      "materia": "Figuras de linguagem: antítese",
+      "dificuldade": "Média",
+      "enunciado": "No trecho “Pois assim como Amarildo é aquele que desapareceu das vistas [...] Cláudia é aquela que subitamente salta à vista”, o contraste entre as expressões destacadas aproxima dois casos noticiados. Esse recurso de linguagem é denominado:",
+      "alternativas": [
+        "antítese.",
+        "negação.",
+        "metonímia.",
+        "personificação.",
+        "hipérbole."
+      ],
+      "respostaCorreta": 0,
+      "explicacao": "A antítese aproxima ideias opostas. “Desapareceu das vistas” e “salta à vista” contrastam desaparecimento e visibilidade para relacionar os dois casos.",
+      "origem": "Autoral adaptada de questão oficial",
+      "anoProva": 2015,
+      "numeroQuestao": 7,
+      "fonteUrl": "https://www.revista.vestibular.uerj.br/arquivos/pdf/questao/20.pdf",
+      "fonteDescricao": "Revista Eletrônica do Vestibular da UERJ — 1º Exame de Qualificação 2015, Linguagens",
+      "observacao": "Enunciado/alternativas foram adaptados e não devem ser tratados como reprodução fiel de questão oficial."
     }
   ]
 }
