@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <meta name="description" content="Aplicativo gratuito de estudos para ENEM e UERJ.">
+  <title>Trilha Vestibular</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" data-screen="home" aria-label="Trilha Vestibular, início">
+        <span class="brand-mark">T</span><span>trilha<span class="brand-light">.vest</span></span>
+      </a>
+      <span class="topbar-label">Seu próximo passo começa hoje.</span>
+    </header>
+
+    <main id="app">
+      <section id="screen-home" class="screen">
+        <div class="hero">
+          <p class="eyebrow">SUA JORNADA, NO SEU RITMO</p>
+          <h1>Um pouco todo dia.<br><span>Uma grande conquista depois.</span></h1>
+          <p class="hero-copy">Pratique, entenda seus erros e acompanhe sua evolução rumo ao vestibular.</p>
+          <button class="button button-primary" data-screen="study">Começar a estudar <span aria-hidden="true">↗</span></button>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card"><span class="stat-icon">✦</span><span class="stat-label">XP acumulado</span><strong id="home-xp">0</strong><small>pontos de experiência</small></article>
+          <article class="stat-card"><span class="stat-icon">↗</span><span class="stat-label">Nível atual</span><strong id="home-level">1</strong><small>continue avançando</small></article>
+          <article class="stat-card"><span class="stat-icon">♨</span><span class="stat-label">Sequência</span><strong><span id="home-streak">0</span> dias</strong><small>um dia de cada vez</small></article>
+          <article class="stat-card"><span class="stat-icon">◎</span><span class="stat-label">Pontos</span><strong id="home-points">0</strong><small>respostas corretas</small></article>
+        </div>
+        <section class="panel next-step">
+          <div><p class="eyebrow">CONTINUE DE ONDE PAROU</p><h2>Seu próximo acerto está esperando.</h2><p>Escolha uma área e transforme alguns minutos em progresso.</p></div>
+          <button class="button button-secondary" data-screen="study">Ver questões <span aria-hidden="true">→</span></button>
+        </section>
+        <section class="panel">
+          <div class="section-heading"><div><p class="eyebrow">COMECE POR AQUI</p><h2>Escolha uma trilha</h2></div><button class="text-button" data-screen="study">Ver todas →</button></div>
+          <div class="subject-cards">
+            <button class="subject-card" data-subject="Matemática"><span class="subject-symbol">∑</span><strong>Matemática</strong><small>Raciocínio e prática</small></button>
+            <button class="subject-card" data-subject="Linguagens"><span class="subject-symbol">Aa</span><strong>Linguagens</strong><small>Leitura e interpretação</small></button>
+            <button class="subject-card" data-subject="Ciências da Natureza"><span class="subject-symbol">⚗</span><strong>Natureza</strong><small>Ciência em contexto</small></button>
+            <button class="subject-card" data-subject="Ciências Humanas"><span class="subject-symbol">⌘</span><strong>Humanas</strong><small>Sociedade e história</small></button>
+          </div>
+        </section>
+      </section>
+
+      <section id="screen-study" class="screen hidden">
+        <div class="page-heading"><div><p class="eyebrow">PRÁTICA INTELIGENTE</p><h1>Hora de estudar.</h1><p>Responda, confira a explicação e aprenda com cada tentativa.</p></div><span class="pill">QUESTÕES AUTORAIS</span></div>
+        <div class="filters panel">
+          <label>Vestibular<select id="filter-vestibular"><option value="Todos">Todos</option><option value="ENEM">ENEM</option><option value="UERJ">UERJ</option></select></label>
+          <label>Disciplina<select id="filter-disciplina"><option value="Todas">Todas</option><option>Matemática</option><option>Linguagens</option><option>Ciências da Natureza</option><option>Ciências Humanas</option></select></label>
+          <label>Matéria<select id="filter-materia"><option value="Todas">Todas</option></select></label>
+        </div>
+        <article class="question-card panel">
+          <div class="question-meta"><span id="question-counter">Questão 1</span><span id="question-tags" class="pill">Matemática</span></div>
+          <h2 id="question-enunciado">Carregando questões…</h2>
+          <p id="question-texto-apoio" class="support-text hidden"></p>
+          <div id="question-alternativas" class="alternatives"></div>
+          <div id="question-feedback" class="feedback hidden" role="status"></div>
+          <div id="question-explicacao" class="explanation hidden"></div>
+          <div class="question-actions"><button id="button-submit-answer" class="button button-primary">Conferir resposta</button><button id="button-next-question" class="button button-secondary hidden">Próxima questão →</button></div>
+        </article>
+        <p id="study-empty" class="empty-state hidden">Não encontramos questões com esses filtros. Experimente outra combinação.</p>
+      </section>
+
+      <section id="screen-stats" class="screen hidden">
+        <div class="page-heading"><div><p class="eyebrow">SUA EVOLUÇÃO</p><h1>Progresso real.</h1><p>Use seus resultados para escolher o próximo passo.</p></div></div>
+        <div id="stats-overview" class="stats-grid"></div>
+        <section class="panel"><div class="section-heading"><div><p class="eyebrow">POR DISCIPLINA</p><h2>Onde você está avançando</h2></div></div><div id="stats-by-subject" class="stats-list"></div></section>
+        <section class="panel"><div class="section-heading"><div><p class="eyebrow">ÚLTIMAS TENTATIVAS</p><h2>Seu histórico</h2></div></div><div id="stats-history" class="history-list"></div></section>
+        <section class="panel"><div class="section-heading"><div><p class="eyebrow">CONQUISTAS</p><h2>Pequenas vitórias</h2></div></div><div id="stats-achievements" class="achievement-list"></div></section>
+      </section>
+
+      <section id="screen-settings" class="screen hidden">
+        <div class="page-heading"><div><p class="eyebrow">DO SEU JEITO</p><h1>Configurações.</h1><p>Personalize sua experiência de estudo.</p></div></div>
+        <section class="panel settings-panel">
+          <label for="settings-reward-message">Mensagem de recompensa</label>
+          <p>Essa mensagem aparece quando você alcança um novo marco de acertos.</p>
+          <textarea id="settings-reward-message" rows="4" maxlength="500"></textarea>
+          <label for="settings-reward-threshold">A cada quantos acertos?</label>
+          <select id="settings-reward-threshold"><option value="5">5 acertos</option><option value="10">10 acertos</option><option value="20">20 acertos</option></select>
+          <div class="settings-actions"><button id="settings-save" class="button button-primary">Salvar configurações</button><button id="settings-reset-progress" class="button button-danger">Apagar meu progresso</button></div>
+          <p class="privacy-note">Seu progresso fica salvo apenas neste navegador. Ele não é sincronizado entre dispositivos. Apagar os dados do navegador também pode apagar seu progresso.</p>
+        </section>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Navegação principal">
+      <button id="nav-home" data-screen="home" class="nav-item active"><span>⌂</span>Início</button>
+      <button id="nav-study" data-screen="study" class="nav-item"><span>▤</span>Estudar</button>
+      <button id="nav-stats" data-screen="stats" class="nav-item"><span>▥</span>Progresso</button>
+      <button id="nav-settings" data-screen="settings" class="nav-item"><span>⚙</span>Ajustes</button>
+    </nav>
+    <div id="app-message" class="toast hidden" role="status" aria-live="polite"></div>
+    <footer><span>TRILHA.VEST</span><span>Feito para evoluir, uma questão por vez.</span></footer>
+  </div>
+</body>
+</html>
