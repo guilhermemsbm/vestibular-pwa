@@ -1,0 +1,611 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-20",
+  "policy": "Não criar/incluir questões autorais no banco ativo até a conclusão do escopo oficial. Registrar uma questão como oficial somente após conferir prova, número, gabarito definitivo e metadados.",
+  "statusLegend": {
+    "pagina-de-edicao-verificada; PDFs de prova/gabarito ainda não auditados questão a questão": "Página de edição confirmada, falta auditar PDFs e itens individualmente.",
+    "pendente-de-conferencia-por-edicao": "Link de edição sugerido a partir do índice oficial; ainda não foi aberto e conferido."
+  },
+  "enem": [
+    {
+      "exam": "ENEM",
+      "year": 1998,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": null,
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Estrutura antiga: 63 itens interdisciplinares e matriz diferente."
+    },
+    {
+      "exam": "ENEM",
+      "year": 1999,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": null,
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Estrutura antiga: 63 itens interdisciplinares e matriz diferente."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2000,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": null,
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Estrutura antiga: 63 itens interdisciplinares e matriz diferente."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2001,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": null,
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Estrutura antiga: 63 itens interdisciplinares e matriz diferente."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2002,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": null,
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Estrutura antiga: 63 itens interdisciplinares e matriz diferente."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2003,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": null,
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Estrutura antiga: 63 itens interdisciplinares e matriz diferente."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2004,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": null,
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Estrutura antiga: 63 itens interdisciplinares e matriz diferente."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2005,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": null,
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Estrutura antiga: 63 itens interdisciplinares e matriz diferente."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2006,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": null,
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Estrutura antiga: 63 itens interdisciplinares e matriz diferente."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2007,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": null,
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Estrutura antiga: 63 itens interdisciplinares e matriz diferente."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2008,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": null,
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Estrutura antiga: 63 itens interdisciplinares e matriz diferente."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2009,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2009",
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2010,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2010",
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2011,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2011",
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2012,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2012",
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2013,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2013",
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2014,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2014",
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2015,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2015",
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2016,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2016",
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2017,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2017",
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2018,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2018",
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2019,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2019",
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2020,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2021,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2022,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2022",
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2023,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2023",
+      "status": "pagina-de-edicao-verificada; PDFs de prova/gabarito ainda não auditados questão a questão",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2024,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2024",
+      "status": "pagina-de-edicao-verificada; PDFs de prova/gabarito ainda não auditados questão a questão",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2025,
+      "sourceIndexUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos",
+      "editionUrl": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2025",
+      "status": "pendente-de-conferencia-por-edicao",
+      "applications": [],
+      "notes": "Separar 1º e 2º dia, aplicação regular e reaplicação/PPL quando houver; escolher caderno-base e registrar equivalências."
+    }
+  ],
+  "knownEnem2024DirectLinks": [
+    {
+      "application": "regular",
+      "day": 1,
+      "booklet": "Caderno 1 Azul",
+      "type": "prova",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_PV_impresso_D1_CD1.pdf",
+      "status": "URL extraída da página oficial INEP; PDF não carregou na consulta automatizada"
+    },
+    {
+      "application": "regular",
+      "day": 1,
+      "booklet": "Caderno 1 Azul",
+      "type": "gabarito",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_GB_impresso_D1_CD1.pdf",
+      "status": "URL extraída da página oficial INEP; PDF não carregou na consulta automatizada"
+    },
+    {
+      "application": "regular",
+      "day": 2,
+      "booklet": "Caderno 5 Amarelo",
+      "type": "prova",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_PV_impresso_D2_CD5.pdf",
+      "status": "URL extraída da página oficial INEP; PDF não carregou na consulta automatizada"
+    },
+    {
+      "application": "regular",
+      "day": 2,
+      "booklet": "Caderno 5 Amarelo",
+      "type": "gabarito",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_GB_impresso_D2_CD5.pdf",
+      "status": "URL extraída da página oficial INEP; PDF não carregou na consulta automatizada"
+    }
+  ],
+  "uerj": [
+    {
+      "exam": "UERJ",
+      "year": 2025,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2024,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2023,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2022,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2021,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2020,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2019,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2019/exame_de_qualificacao/eq_prova_e_gabarito.php",
+      "status": "url-de-edicao-registrada; verificar conteúdo e gabarito retificado",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2018,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2018/exame_de_qualificacao/eq_prova_e_gabarito.php",
+      "status": "url-de-edicao-registrada; verificar conteúdo e gabarito retificado",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2017,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2017/exame_de_qualificacao/eq_prova_e_gabarito.php",
+      "status": "url-de-edicao-registrada; verificar conteúdo e gabarito retificado",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2016,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2016/exame_de_qualificacao/eq_prova_e_gabarito.php",
+      "status": "url-de-edicao-registrada; verificar conteúdo e gabarito retificado",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2015,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2015/exame_de_qualificacao/eq_prova_e_gabarito.php",
+      "status": "url-de-edicao-registrada; verificar conteúdo e gabarito retificado",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2014,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2014/exame_de_qualificacao/eq_prova_e_gabarito.php",
+      "status": "url-de-edicao-registrada; verificar conteúdo e gabarito retificado",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2013,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2013/exame_de_qualificacao/eq_prova_e_gabarito.php",
+      "status": "url-de-edicao-registrada; verificar conteúdo e gabarito retificado",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2012,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2012/exame_de_qualificacao/eq_prova_e_gabarito.php",
+      "status": "url-de-edicao-registrada; verificar conteúdo e gabarito retificado",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2011,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2010,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2009,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2008,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2007,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2006,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2005,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2004,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2003,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2002,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2001,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    },
+    {
+      "exam": "UERJ",
+      "year": 2000,
+      "portalUrl": "https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php",
+      "qualificationUrl": null,
+      "status": "pendente-de-localizacao-e-conferencia",
+      "exams": [
+        "1º Exame de Qualificação (se aplicado)",
+        "2º Exame de Qualificação (se aplicado)",
+        "Exame Discursivo (trilha separada)"
+      ]
+    }
+  ]
+}
