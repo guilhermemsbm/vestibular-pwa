@@ -685,6 +685,44 @@
       ],
       "status": "origem e gabarito oficial conferidos; anulação/retificação e política de reprodução pendentes",
       "note": "Registro de auditoria; itens ainda não publicados no banco jogável."
+    },
+    {
+      "exam": "ENEM",
+      "year": 2022,
+      "application": "regular",
+      "day": 1,
+      "booklet": "Caderno 1 Azul",
+      "proofUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D1_CD1.pdf",
+      "answerKeyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D1_CD1.pdf",
+      "auditFile": "docs/LOTE_03_ENEM_2022_AUDITORIA.md",
+      "items": [
+        {
+          "number": 6,
+          "area": "Linguagens",
+          "answerKeyLetter": "E",
+          "originStatus": "identificada-em-prova-oficial",
+          "answerStatus": "letra conferida no gabarito oficial indexado; anulação/retificação ainda não auditada",
+          "playable": false
+        },
+        {
+          "number": 7,
+          "area": "Linguagens",
+          "answerKeyLetter": "A",
+          "originStatus": "identificada-em-prova-oficial",
+          "answerStatus": "letra conferida no gabarito oficial indexado; anulação/retificação ainda não auditada",
+          "playable": false
+        },
+        {
+          "number": 8,
+          "area": "Linguagens",
+          "answerKeyLetter": "A",
+          "originStatus": "identificada-em-prova-oficial",
+          "answerStatus": "letra conferida no gabarito oficial indexado; anulação/retificação ainda não auditada",
+          "playable": false
+        }
+      ],
+      "status": "origem e gabarito oficial conferidos; anulação/retificação e política de reprodução pendentes",
+      "note": "Registro de auditoria; itens ainda não publicados no banco jogável."
     }
   ]
 }
