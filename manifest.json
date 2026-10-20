@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "Trilha Vestibular — ENEM e UERJ",
+  "short_name": "Trilha Vest",
+  "description": "Aplicativo gratuito de estudos com questões, gamificação e progresso local.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b1018",
+  "theme_color": "#111827",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
