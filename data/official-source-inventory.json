@@ -1,10 +1,11 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20",
-  "policy": "Não criar/incluir questões autorais no banco ativo até a conclusão do escopo oficial. Registrar uma questão como oficial somente após conferir prova, número, gabarito definitivo e metadados.",
+  "policy": "Não criar/incluir questões autorais no banco ativo até a conclusão do escopo oficial. Questões identificadas diretamente em prova oficial podem ser liberadas antes da conclusão do inventário com statusVerificacao=pending; não apresentar gabarito como confirmado até conferi-lo. Itens apenas autorais/adaptados não se qualificam.",
   "statusLegend": {
     "pagina-de-edicao-verificada; PDFs de prova/gabarito ainda não auditados questão a questão": "Página de edição confirmada, falta auditar PDFs e itens individualmente.",
-    "pendente-de-conferencia-por-edicao": "Link de edição sugerido a partir do índice oficial; ainda não foi aberto e conferido."
+    "pendente-de-conferencia-por-edicao": "Link de edição sugerido a partir do índice oficial; ainda não foi aberto e conferido.",
+    "questao-oficial-com-revisao-pendente": "Questão identificada diretamente em prova oficial, com origem/caderno/número rastreáveis; gabarito ou explicação ainda pendente. Não tratar resposta como confirmada."
   },
   "enem": [
     {
