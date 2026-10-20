@@ -61,6 +61,12 @@ Arquivo de questões comentadas da Revista do Vestibular: https://www.revista.ve
 - Estado atual: origem localizada; a conferência final do gabarito, a auditoria de anulações/retificações e a política de reprodução ainda estão pendentes. **Essas questões ainda não estão no banco jogável**.
 - O inventário estruturado em `data/official-source-inventory.json` contém agora um registro granular desse lote. Não contar esses itens como publicados ou totalmente verificados.
 
+## Lotes em auditoria
+
+- [Lote 01 — ENEM 2024, 1º dia, caderno 1 azul](LOTE_01_ENEM_2024_AUDITORIA.md): questões candidatas 6, 7 e 8.
+- [Lote 02 — ENEM 2023, 1º dia, caderno 1 azul](LOTE_02_ENEM_2023_AUDITORIA.md): questões candidatas 6, 7 e 8.
+- Os seis itens têm origem/caderno e letras de gabarito localizados em fontes oficiais, mas ainda não estão publicados como questões jogáveis; conferência final, explicação e política de reprodução pendentes.
+
 ## Diretório de fontes oficiais por edição — links iniciais verificados
 
 ### ENEM
