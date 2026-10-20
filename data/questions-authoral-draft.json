@@ -1,0 +1,509 @@
+{
+  "aviso": "Rascunhos autorais arquivados fora do banco ativo. Não são carregados pelo aplicativo. Só avaliar sua inclusão depois de concluir e auditar o banco oficial, conforme docs/INVENTARIO_QUESTOES_OFICIAIS.md.",
+  "questoes": [
+    {
+      "id": "mat-porcentagem-001",
+      "vestibular": "ENEM",
+      "disciplina": "Matemática",
+      "materia": "Porcentagem",
+      "dificuldade": "Fácil",
+      "enunciado": "Uma loja oferece 20% de desconto em uma mochila que custa R$ 150,00. Qual é o preço da mochila após o desconto?",
+      "alternativas": [
+        "R$ 30,00",
+        "R$ 120,00",
+        "R$ 130,00",
+        "R$ 180,00",
+        "R$ 125,00"
+      ],
+      "respostaCorreta": 1,
+      "explicacao": "20% de R$ 150,00 corresponde a 0,20 × 150 = R$ 30,00. Subtraindo o desconto do preço original: 150 − 30 = R$ 120,00.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "ling-interpretacao-001",
+      "vestibular": "ENEM",
+      "disciplina": "Linguagens",
+      "materia": "Interpretação de texto",
+      "dificuldade": "Fácil",
+      "enunciado": "Um cartaz de campanha diz: “Leve sua garrafa reutilizável. Pequenas escolhas reduzem o lixo de todos.” Qual é o principal objetivo comunicativo da mensagem?",
+      "alternativas": [
+        "Narrar um acontecimento passado.",
+        "Descrever detalhadamente a fabricação de garrafas.",
+        "Incentivar uma atitude que diminua a produção de resíduos.",
+        "Criticar todas as formas de consumo.",
+        "Apresentar dados estatísticos sobre reciclagem."
+      ],
+      "respostaCorreta": 2,
+      "explicacao": "O uso do imperativo “Leve” e a justificativa sobre reduzir o lixo indicam que o cartaz procura persuadir o público a adotar um comportamento.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "natureza-energia-001",
+      "vestibular": "ENEM",
+      "disciplina": "Ciências da Natureza",
+      "materia": "Energia e eletricidade",
+      "dificuldade": "Média",
+      "enunciado": "Um aparelho de 1.000 W permanece ligado por 2 horas. Considerando potência constante, qual energia ele consome nesse intervalo?",
+      "alternativas": [
+        "0,5 kWh",
+        "1 kWh",
+        "2 kWh",
+        "2.000 kWh",
+        "500 kWh"
+      ],
+      "respostaCorreta": 2,
+      "explicacao": "A energia consumida é potência × tempo. Como 1.000 W = 1 kW, temos E = 1 kW × 2 h = 2 kWh.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "humanas-industrializacao-001",
+      "vestibular": "UERJ",
+      "disciplina": "Ciências Humanas",
+      "materia": "Urbanização",
+      "dificuldade": "Média",
+      "enunciado": "A concentração de empregos industriais e de serviços em uma cidade pode atrair pessoas de outras regiões. Um efeito possível desse processo, quando a infraestrutura não acompanha o crescimento populacional, é:",
+      "alternativas": [
+        "A eliminação automática das desigualdades sociais.",
+        "A redução obrigatória da demanda por moradia.",
+        "A expansão de áreas periféricas com acesso desigual a serviços urbanos.",
+        "O fim dos deslocamentos diários para o trabalho.",
+        "A distribuição uniforme de renda entre bairros."
+      ],
+      "respostaCorreta": 2,
+      "explicacao": "O crescimento populacional rápido, sem expansão adequada de moradia, transporte e saneamento, pode ampliar a periferização e as desigualdades no acesso à infraestrutura.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "mat-funcao-001",
+      "vestibular": "UERJ",
+      "disciplina": "Matemática",
+      "materia": "Função afim",
+      "dificuldade": "Fácil",
+      "enunciado": "Uma corrida por aplicativo tem taxa fixa de R$ 6,00 mais R$ 2,50 por quilômetro percorrido. Qual expressão representa o preço P, em reais, para uma distância de x quilômetros?",
+      "alternativas": [
+        "P(x) = 6x + 2,5",
+        "P(x) = 2,5x + 6",
+        "P(x) = 8,5x",
+        "P(x) = 6x − 2,5",
+        "P(x) = 2,5 + 6"
+      ],
+      "respostaCorreta": 1,
+      "explicacao": "A taxa fixa é o termo constante, 6, e o custo por quilômetro é 2,5 multiplicado por x. Portanto, P(x) = 2,5x + 6.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "natureza-ecologia-001",
+      "vestibular": "ENEM",
+      "disciplina": "Ciências da Natureza",
+      "materia": "Ecologia",
+      "dificuldade": "Fácil",
+      "enunciado": "Em uma cadeia alimentar, plantas são consumidas por gafanhotos, que servem de alimento para sapos. Nesse exemplo, as plantas são classificadas como:",
+      "alternativas": [
+        "Consumidores primários.",
+        "Decompositores.",
+        "Consumidores secundários.",
+        "Produtores.",
+        "Predadores de topo."
+      ],
+      "respostaCorreta": 3,
+      "explicacao": "As plantas produzem matéria orgânica a partir de energia luminosa por fotossíntese, ocupando o nível trófico dos produtores.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "mat-razao-002",
+      "vestibular": "ENEM",
+      "disciplina": "Matemática",
+      "materia": "Razão e proporção",
+      "dificuldade": "Fácil",
+      "enunciado": "Uma receita para 4 pessoas usa 300 g de arroz. Mantendo a mesma proporção, quantos gramas serão necessários para 10 pessoas?",
+      "alternativas": [
+        "450 g",
+        "600 g",
+        "650 g",
+        "750 g",
+        "900 g"
+      ],
+      "respostaCorreta": 3,
+      "explicacao": "300 ÷ 4 = 75 g por pessoa; 75 × 10 = 750 g.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "mat-prob-001",
+      "vestibular": "ENEM",
+      "disciplina": "Matemática",
+      "materia": "Probabilidade",
+      "dificuldade": "Média",
+      "enunciado": "Uma caixa contém 3 bolas azuis, 2 vermelhas e 5 verdes. Ao retirar uma bola ao acaso, qual é a probabilidade de ela ser vermelha?",
+      "alternativas": [
+        "1/10",
+        "1/5",
+        "1/3",
+        "2/5",
+        "1/2"
+      ],
+      "respostaCorreta": 1,
+      "explicacao": "Há 10 bolas no total e 2 vermelhas: 2/10 = 1/5.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "mat-geometria-001",
+      "vestibular": "UERJ",
+      "disciplina": "Matemática",
+      "materia": "Geometria plana",
+      "dificuldade": "Fácil",
+      "enunciado": "Um terreno retangular mede 12 m por 7 m. Qual é sua área?",
+      "alternativas": [
+        "19 m²",
+        "38 m²",
+        "72 m²",
+        "84 m²",
+        "96 m²"
+      ],
+      "respostaCorreta": 3,
+      "explicacao": "A área do retângulo é comprimento × largura: 12 × 7 = 84 m².",
+      "origem": "Autoral"
+    },
+    {
+      "id": "mat-funcao-002",
+      "vestibular": "ENEM",
+      "disciplina": "Matemática",
+      "materia": "Função afim",
+      "dificuldade": "Média",
+      "enunciado": "Um reservatório contém 120 litros e perde 8 litros por minuto. Qual expressão representa o volume V após t minutos?",
+      "alternativas": [
+        "V(t) = 120 + 8t",
+        "V(t) = 8t − 120",
+        "V(t) = 120 − 8t",
+        "V(t) = 120t − 8",
+        "V(t) = 8 − 120t"
+      ],
+      "respostaCorreta": 2,
+      "explicacao": "O volume começa em 120 L e diminui 8 L por minuto: V(t) = 120 − 8t.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "mat-estatistica-001",
+      "vestibular": "UERJ",
+      "disciplina": "Matemática",
+      "materia": "Estatística: média",
+      "dificuldade": "Fácil",
+      "enunciado": "As notas de uma estudante foram 6, 7, 8 e 9. Qual é a média aritmética?",
+      "alternativas": [
+        "6,5",
+        "7",
+        "7,5",
+        "8",
+        "8,5"
+      ],
+      "respostaCorreta": 2,
+      "explicacao": "(6 + 7 + 8 + 9) ÷ 4 = 30 ÷ 4 = 7,5.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "ling-genero-001",
+      "vestibular": "ENEM",
+      "disciplina": "Linguagens",
+      "materia": "Gêneros textuais",
+      "dificuldade": "Fácil",
+      "enunciado": "Um texto apresenta dados sobre desperdício de água e termina com “Feche a torneira enquanto escova os dentes”. Predomina a intenção de:",
+      "alternativas": [
+        "narrar uma lembrança.",
+        "convencer o leitor a mudar um hábito.",
+        "descrever a química da água.",
+        "relatar uma experiência sem conclusão.",
+        "entreter com personagens fictícios."
+      ],
+      "respostaCorreta": 1,
+      "explicacao": "A orientação direta incentiva uma ação e caracteriza a intenção persuasiva de uma campanha.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "ling-figuras-001",
+      "vestibular": "UERJ",
+      "disciplina": "Linguagens",
+      "materia": "Figuras de linguagem",
+      "dificuldade": "Média",
+      "enunciado": "Na frase “A cidade acordou apressada”, atribui-se à cidade uma ação humana. Isso é:",
+      "alternativas": [
+        "hipérbole.",
+        "metonímia.",
+        "personificação.",
+        "eufemismo.",
+        "onomatopeia."
+      ],
+      "respostaCorreta": 2,
+      "explicacao": "Personificação atribui ações ou características humanas a seres inanimados; a cidade é apresentada como se pudesse acordar.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "ling-ingles-001",
+      "vestibular": "ENEM",
+      "disciplina": "Linguagens",
+      "materia": "Língua Inglesa: compreensão",
+      "dificuldade": "Fácil",
+      "enunciado": "Um aviso diz: “Please reuse your shopping bags to reduce plastic waste.” O que ele recomenda?",
+      "alternativas": [
+        "Comprar mais sacolas.",
+        "Descartar as sacolas após o uso.",
+        "Reutilizar sacolas para diminuir o lixo plástico.",
+        "Evitar mercados.",
+        "Usar mais embalagens descartáveis."
+      ],
+      "respostaCorreta": 2,
+      "explicacao": "“Please reuse” significa “por favor, reutilize”; a finalidade é reduzir o lixo plástico.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "ling-literatura-001",
+      "vestibular": "UERJ",
+      "disciplina": "Linguagens",
+      "materia": "Literatura: narrador",
+      "dificuldade": "Média",
+      "enunciado": "Em um conto, o narrador relata o que observa de fora e não revela diretamente os pensamentos das personagens. Ele é:",
+      "alternativas": [
+        "onisciente.",
+        "observador.",
+        "personagem principal.",
+        "lírico.",
+        "dramático, sem narração."
+      ],
+      "respostaCorreta": 1,
+      "explicacao": "O narrador observador relata ações e falas externas sem necessariamente acessar os pensamentos íntimos.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "nat-fisica-001",
+      "vestibular": "ENEM",
+      "disciplina": "Ciências da Natureza",
+      "materia": "Física: velocidade média",
+      "dificuldade": "Fácil",
+      "enunciado": "Um ônibus percorre 150 km em 3 horas. Qual é sua velocidade média?",
+      "alternativas": [
+        "30 km/h",
+        "40 km/h",
+        "45 km/h",
+        "50 km/h",
+        "60 km/h"
+      ],
+      "respostaCorreta": 3,
+      "explicacao": "Velocidade média = distância ÷ tempo = 150 ÷ 3 = 50 km/h.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "nat-quimica-001",
+      "vestibular": "ENEM",
+      "disciplina": "Ciências da Natureza",
+      "materia": "Química: pH",
+      "dificuldade": "Média",
+      "enunciado": "Uma solução tem pH 3 e outra pH 5. A 25 °C, comparada à segunda, a primeira solução é:",
+      "alternativas": [
+        "100 vezes menos ácida.",
+        "10 vezes menos ácida.",
+        "100 vezes mais ácida.",
+        "duas vezes mais ácida.",
+        "neutra."
+      ],
+      "respostaCorreta": 2,
+      "explicacao": "Cada unidade de pH representa fator 10. Diferença de duas unidades equivale a 100 vezes na concentração de H⁺.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "nat-biologia-001",
+      "vestibular": "UERJ",
+      "disciplina": "Ciências da Natureza",
+      "materia": "Biologia: genética",
+      "dificuldade": "Média",
+      "enunciado": "Em uma espécie, A é dominante sobre a. No cruzamento Aa × Aa, qual a probabilidade de descendente aa?",
+      "alternativas": [
+        "0%",
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "respostaCorreta": 1,
+      "explicacao": "As combinações possíveis são AA, Aa, Aa e aa. Uma em quatro é aa: 25%.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "nat-ecologia-002",
+      "vestibular": "ENEM",
+      "disciplina": "Ciências da Natureza",
+      "materia": "Ecologia: ciclos",
+      "dificuldade": "Média",
+      "enunciado": "O desmatamento pode reduzir a absorção de dióxido de carbono pela vegetação. Uma consequência possível é:",
+      "alternativas": [
+        "a redução automática do efeito estufa.",
+        "a interrupção completa do ciclo da água.",
+        "o aumento do CO₂ atmosférico, contribuindo para o aquecimento global.",
+        "a conversão de todo carbono em oxigênio.",
+        "o fim da respiração dos seres vivos."
+      ],
+      "respostaCorreta": 2,
+      "explicacao": "As plantas retiram CO₂ da atmosfera na fotossíntese. Menos vegetação pode reduzir essa retirada e contribuir para elevar a concentração do gás.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "nat-fisica-002",
+      "vestibular": "UERJ",
+      "disciplina": "Ciências da Natureza",
+      "materia": "Física: circuitos elétricos",
+      "dificuldade": "Média",
+      "enunciado": "Dois resistores de 6 Ω e 3 Ω são ligados em série. Qual é a resistência equivalente?",
+      "alternativas": [
+        "2 Ω",
+        "3 Ω",
+        "6 Ω",
+        "9 Ω",
+        "18 Ω"
+      ],
+      "respostaCorreta": 3,
+      "explicacao": "Em série, as resistências são somadas: 6 + 3 = 9 Ω.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "nat-quimica-002",
+      "vestibular": "ENEM",
+      "disciplina": "Ciências da Natureza",
+      "materia": "Química: separação de misturas",
+      "dificuldade": "Fácil",
+      "enunciado": "Uma mistura contém areia e água. Qual procedimento permite separar a areia da água?",
+      "alternativas": [
+        "Destilação fracionada.",
+        "Filtração.",
+        "Cromatografia gasosa.",
+        "Liquefação do oxigênio.",
+        "Eletrólise."
+      ],
+      "respostaCorreta": 1,
+      "explicacao": "O filtro retém a areia, sólido insolúvel, enquanto a água atravessa seus poros.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "nat-biologia-002",
+      "vestibular": "ENEM",
+      "disciplina": "Ciências da Natureza",
+      "materia": "Biologia: fisiologia",
+      "dificuldade": "Fácil",
+      "enunciado": "Qual estrutura celular produz a maior parte do ATP na respiração aeróbia de células eucarióticas?",
+      "alternativas": [
+        "Ribossomo.",
+        "Complexo golgiense.",
+        "Mitocôndria.",
+        "Lisossomo.",
+        "Centríolo."
+      ],
+      "respostaCorreta": 2,
+      "explicacao": "A mitocôndria abriga a cadeia transportadora de elétrons e a fosforilação oxidativa, que produzem grande parte do ATP.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "hum-historia-001",
+      "vestibular": "ENEM",
+      "disciplina": "Ciências Humanas",
+      "materia": "História: industrialização",
+      "dificuldade": "Média",
+      "enunciado": "A expansão das fábricas durante a Revolução Industrial promoveu:",
+      "alternativas": [
+        "o desaparecimento imediato das cidades.",
+        "a ampliação do trabalho assalariado nas fábricas.",
+        "o fim da produção em larga escala.",
+        "a substituição universal das máquinas pelo artesanato.",
+        "a eliminação dos conflitos trabalhistas."
+      ],
+      "respostaCorreta": 1,
+      "explicacao": "A industrialização concentrou trabalhadores nas fábricas e ampliou o trabalho assalariado, além de gerar disputas sobre salários e condições de trabalho.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "hum-geografia-001",
+      "vestibular": "UERJ",
+      "disciplina": "Ciências Humanas",
+      "materia": "Geografia: urbanização",
+      "dificuldade": "Fácil",
+      "enunciado": "Quando uma cidade cresce sem investimentos suficientes em transporte, saneamento e habitação, pode ocorrer:",
+      "alternativas": [
+        "distribuição igualitária dos serviços.",
+        "redução de todos os deslocamentos.",
+        "ampliação das desigualdades socioespaciais.",
+        "desaparecimento das periferias.",
+        "interrupção do crescimento populacional."
+      ],
+      "respostaCorreta": 2,
+      "explicacao": "Quando a infraestrutura não acompanha a expansão urbana, o acesso a serviços e oportunidades tende a ser desigual.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "hum-sociologia-001",
+      "vestibular": "ENEM",
+      "disciplina": "Ciências Humanas",
+      "materia": "Sociologia: cultura",
+      "dificuldade": "Média",
+      "enunciado": "Aprender regras de convivência, valores e costumes pela família, escola e outros grupos é chamado de:",
+      "alternativas": [
+        "industrialização.",
+        "socialização.",
+        "urbanização.",
+        "globalização financeira.",
+        "mobilidade geológica."
+      ],
+      "respostaCorreta": 1,
+      "explicacao": "Socialização é o processo de aprendizagem e incorporação de normas, valores e práticas da vida social.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "hum-filosofia-001",
+      "vestibular": "UERJ",
+      "disciplina": "Ciências Humanas",
+      "materia": "Filosofia: ética",
+      "dificuldade": "Média",
+      "enunciado": "Avaliar se uma regra de ação poderia valer para todas as pessoas, e não só para o próprio benefício, aproxima-se de uma reflexão sobre:",
+      "alternativas": [
+        "ética e universalização de princípios.",
+        "previsão meteorológica.",
+        "composição de minerais.",
+        "classificação dos seres vivos.",
+        "variação de preços."
+      ],
+      "respostaCorreta": 0,
+      "explicacao": "A ética examina princípios que orientam ações; avaliar a universalidade de uma regra é uma questão ética.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "hum-geografia-002",
+      "vestibular": "ENEM",
+      "disciplina": "Ciências Humanas",
+      "materia": "Geografia: globalização",
+      "dificuldade": "Média",
+      "enunciado": "Uma empresa projeta um produto em um país, obtém componentes em outros e monta tudo em uma terceira região. Isso evidencia:",
+      "alternativas": [
+        "isolamento das economias.",
+        "fim do comércio internacional.",
+        "integração de etapas produtivas em redes globais.",
+        "ausência de transporte internacional.",
+        "fim das diferenças salariais."
+      ],
+      "respostaCorreta": 2,
+      "explicacao": "A divisão internacional das etapas de produção e a circulação de componentes são características da integração econômica global.",
+      "origem": "Autoral"
+    },
+    {
+      "id": "hum-historia-002",
+      "vestibular": "UERJ",
+      "disciplina": "Ciências Humanas",
+      "materia": "História: cidadania",
+      "dificuldade": "Média",
+      "enunciado": "A ampliação do direito ao voto ocorreu historicamente por conflitos e mobilizações. Isso mostra que a cidadania:",
+      "alternativas": [
+        "é idêntica em todas as épocas.",
+        "sempre foi igual para todos.",
+        "pode se ampliar por disputas políticas e sociais.",
+        "depende só da renda.",
+        "elimina automaticamente desigualdades."
+      ],
+      "respostaCorreta": 2,
+      "explicacao": "Direitos políticos e sociais foram conquistados historicamente. A cidadania é dinâmica e pode se ampliar por mobilização social.",
+      "origem": "Autoral"
+    }
+  ]
+}
