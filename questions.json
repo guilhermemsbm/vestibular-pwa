@@ -1,0 +1,68 @@
+[
+  {
+    "id": "mat-porcentagem-001",
+    "vestibular": "ENEM",
+    "disciplina": "Matemática",
+    "materia": "Porcentagem",
+    "dificuldade": "Fácil",
+    "enunciado": "Uma loja oferece 20% de desconto em uma mochila que custa R$ 150,00. Qual é o preço da mochila após o desconto?",
+    "alternativas": ["R$ 30,00", "R$ 120,00", "R$ 130,00", "R$ 180,00", "R$ 125,00"],
+    "respostaCorreta": 1,
+    "explicacao": "20% de R$ 150,00 corresponde a 0,20 × 150 = R$ 30,00. Subtraindo o desconto do preço original: 150 − 30 = R$ 120,00."
+  },
+  {
+    "id": "ling-interpretacao-001",
+    "vestibular": "ENEM",
+    "disciplina": "Linguagens",
+    "materia": "Interpretação de texto",
+    "dificuldade": "Fácil",
+    "enunciado": "Um cartaz de campanha diz: “Leve sua garrafa reutilizável. Pequenas escolhas reduzem o lixo de todos.” Qual é o principal objetivo comunicativo da mensagem?",
+    "alternativas": ["Narrar um acontecimento passado.", "Descrever detalhadamente a fabricação de garrafas.", "Incentivar uma atitude que diminua a produção de resíduos.", "Criticar todas as formas de consumo.", "Apresentar dados estatísticos sobre reciclagem."],
+    "respostaCorreta": 2,
+    "explicacao": "O uso do imperativo “Leve” e a justificativa sobre reduzir o lixo indicam que o cartaz procura persuadir o público a adotar um comportamento."
+  },
+  {
+    "id": "natureza-energia-001",
+    "vestibular": "ENEM",
+    "disciplina": "Ciências da Natureza",
+    "materia": "Energia e eletricidade",
+    "dificuldade": "Média",
+    "enunciado": "Um aparelho de 1.000 W permanece ligado por 2 horas. Considerando potência constante, qual energia ele consome nesse intervalo?",
+    "alternativas": ["0,5 kWh", "1 kWh", "2 kWh", "2.000 kWh", "500 kWh"],
+    "respostaCorreta": 2,
+    "explicacao": "A energia consumida é potência × tempo. Como 1.000 W = 1 kW, temos E = 1 kW × 2 h = 2 kWh."
+  },
+  {
+    "id": "humanas-industrializacao-001",
+    "vestibular": "UERJ",
+    "disciplina": "Ciências Humanas",
+    "materia": "Urbanização",
+    "dificuldade": "Média",
+    "enunciado": "A concentração de empregos industriais e de serviços em uma cidade pode atrair pessoas de outras regiões. Um efeito possível desse processo, quando a infraestrutura não acompanha o crescimento populacional, é:",
+    "alternativas": ["A eliminação automática das desigualdades sociais.", "A redução obrigatória da demanda por moradia.", "A expansão de áreas periféricas com acesso desigual a serviços urbanos.", "O fim dos deslocamentos diários para o trabalho.", "A distribuição uniforme de renda entre bairros."],
+    "respostaCorreta": 2,
+    "explicacao": "O crescimento populacional rápido, sem expansão adequada de moradia, transporte e saneamento, pode ampliar a periferização e as desigualdades no acesso à infraestrutura."
+  },
+  {
+    "id": "mat-funcao-001",
+    "vestibular": "UERJ",
+    "disciplina": "Matemática",
+    "materia": "Função afim",
+    "dificuldade": "Fácil",
+    "enunciado": "Uma corrida por aplicativo tem taxa fixa de R$ 6,00 mais R$ 2,50 por quilômetro percorrido. Qual expressão representa o preço P, em reais, para uma distância de x quilômetros?",
+    "alternativas": ["P(x) = 6x + 2,5", "P(x) = 2,5x + 6", "P(x) = 8,5x", "P(x) = 6x − 2,5", "P(x) = 2,5 + 6"],
+    "respostaCorreta": 1,
+    "explicacao": "A taxa fixa é o termo constante, 6, e o custo por quilômetro é 2,5 multiplicado por x. Portanto, P(x) = 2,5x + 6."
+  },
+  {
+    "id": "natureza-ecologia-001",
+    "vestibular": "ENEM",
+    "disciplina": "Ciências da Natureza",
+    "materia": "Ecologia",
+    "dificuldade": "Fácil",
+    "enunciado": "Em uma cadeia alimentar, plantas são consumidas por gafanhotos, que servem de alimento para sapos. Nesse exemplo, as plantas são classificadas como:",
+    "alternativas": ["Consumidores primários.", "Decompositores.", "Consumidores secundários.", "Produtores.", "Predadores de topo."],
+    "respostaCorreta": 3,
+    "explicacao": "As plantas produzem matéria orgânica a partir de energia luminosa por fotossíntese, ocupando o nível trófico dos produtores."
+  }
+]
