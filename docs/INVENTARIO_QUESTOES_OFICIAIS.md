@@ -42,6 +42,8 @@ Arquivo de questões comentadas da Revista do Vestibular: https://www.revista.ve
 - [x] O banco ativo `questions.json` está temporariamente vazio até a inclusão de questões oficiais verificadas.
 - [x] Os dois itens antes marcados como oficiais foram reclassificados no arquivo de rascunhos: enunciados/alternativas eram adaptações, não reproduções fiéis verificadas da prova. Não contam como questões oficiais incluídas.
 - [ ] Incluir questões oficiais com prova e gabarito direto, após verificação item a item.
+- [x] Criado `data/official-source-inventory.json` com 28 edições ENEM (1998–2025) e 26 anos UERJ (2000–2025), em status pendente ou parcial.
+- [x] Página oficial do ENEM 2024 aberta; URLs diretas de prova e gabarito de dois cadernos-base registradas, mas PDFs ainda não auditados.
 - [ ] ENEM: inventário por edição, aplicação, área, caderno-base e gabarito.
 - [ ] UERJ: inventário por ano, etapa/exame, prova e gabarito.
 - [ ] Auditar questões anuladas, retificações e equivalência entre cadernos.
@@ -51,6 +53,8 @@ Arquivo de questões comentadas da Revista do Vestibular: https://www.revista.ve
 ## Diretório de fontes oficiais por edição — links iniciais verificados
 
 ### ENEM
+Inventário estruturado por edição: `data/official-source-inventory.json` (28 edições, 1998–2025). O arquivo diferencia links registrados de provas efetivamente auditadas.
+
 Página-mestra com o arquivo histórico completo (1998–2025):  
 https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos
 
@@ -62,9 +66,10 @@ Páginas de edição já localizadas:
 - [2021 — INEP](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021)
 - [2020 — INEP](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020)
 
-Essas páginas são pontos de entrada para provas e gabaritos; ainda é necessário registrar cada aplicação, caderno-base e gabarito final na matriz anual.
+Essas páginas são pontos de entrada para provas e gabaritos; ainda é necessário registrar cada aplicação, caderno-base e gabarito final na matriz anual. A página oficial de 2024 foi aberta e lista provas e gabaritos por dia, caderno e aplicação. Links diretos de dois cadernos-base foram registrados no JSON de fontes, mas os PDFs não carregaram na consulta automatizada e ainda não contam como auditados.
 
 ### UERJ
+O inventário estruturado registra os anos de 2000 a 2025. Para 2012–2019 foram registrados links de páginas por edição, mas é necessário abrir cada página e verificar as etapas, provas e gabaritos finais.
 - [Portal oficial do vestibular estadual](https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php)
 - [2019 — 1º e 2º Exames de Qualificação](https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2019/exame_de_qualificacao/eq_prova_e_gabarito.php)
 - [2018 — 1º e 2º Exames de Qualificação](https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2018/exame_de_qualificacao/eq_prova_e_gabarito.php)
