@@ -156,10 +156,17 @@
     renderCurrentQuestion();
   }
   function renderCurrentQuestion() {
-    if (!state.questions.length) return;
     const list = filteredQuestions();
     const empty = document.getElementById("study-empty");
     const card = document.querySelector(".question-card");
+    if (!state.questions.length) {
+      state.currentQuestion = null;
+      card.classList.add("hidden");
+      empty.textContent = "Estamos preparando o banco de questões oficiais. Nenhuma questão foi liberada ainda; volte em breve.";
+      empty.classList.remove("hidden");
+      return;
+    }
+    empty.textContent = "Não encontramos questões com esses filtros. Experimente outra combinação.";
     if (!list.length) { card.classList.add("hidden"); empty.classList.remove("hidden"); return; }
     card.classList.remove("hidden"); empty.classList.add("hidden");
     if (!state.currentQuestion || !list.some(q => q.id === state.currentQuestion.id)) state.currentQuestion = list[0];
