@@ -625,7 +625,7 @@
           "area": "Linguagens",
           "answerKeyLetter": "E",
           "originStatus": "identificada-em-prova-oficial",
-          "answerStatus": "gabarito-indexado; conferência final pendente",
+          "answerStatus": "letra conferida no gabarito oficial indexado; anulação/retificação ainda não auditada",
           "playable": false
         },
         {
@@ -633,7 +633,7 @@
           "area": "Linguagens",
           "answerKeyLetter": "C",
           "originStatus": "identificada-em-prova-oficial",
-          "answerStatus": "gabarito-indexado; conferência final pendente",
+          "answerStatus": "letra conferida no gabarito oficial indexado; anulação/retificação ainda não auditada",
           "playable": false
         },
         {
@@ -641,11 +641,11 @@
           "area": "Linguagens",
           "answerKeyLetter": "B",
           "originStatus": "identificada-em-prova-oficial",
-          "answerStatus": "gabarito-indexado; conferência final pendente",
+          "answerStatus": "letra conferida no gabarito oficial indexado; anulação/retificação ainda não auditada",
           "playable": false
         }
       ],
-      "status": "lote-candidato-identificado; transcrição e validação final pendentes",
+      "status": "origem e gabarito oficial conferidos; anulação/retificação e política de reprodução pendentes",
       "note": "Registro de auditoria; não copiar enunciado/alternativas para o banco ativo sem validação e avaliação da política de reprodução."
     },
     {
@@ -663,7 +663,7 @@
           "area": "Linguagens",
           "answerKeyLetter": "D",
           "originStatus": "identificada-em-prova-oficial",
-          "answerStatus": "gabarito-indexado; conferência final pendente",
+          "answerStatus": "letra conferida no gabarito oficial indexado; anulação/retificação ainda não auditada",
           "playable": false
         },
         {
@@ -671,7 +671,7 @@
           "area": "Linguagens",
           "answerKeyLetter": "A",
           "originStatus": "identificada-em-prova-oficial",
-          "answerStatus": "gabarito-indexado; conferência final pendente",
+          "answerStatus": "letra conferida no gabarito oficial indexado; anulação/retificação ainda não auditada",
           "playable": false
         },
         {
@@ -679,11 +679,11 @@
           "area": "Linguagens",
           "answerKeyLetter": "C",
           "originStatus": "identificada-em-prova-oficial",
-          "answerStatus": "gabarito-indexado; conferência final pendente",
+          "answerStatus": "letra conferida no gabarito oficial indexado; anulação/retificação ainda não auditada",
           "playable": false
         }
       ],
-      "status": "lote-candidato-identificado; transcrição e validação final pendentes",
+      "status": "origem e gabarito oficial conferidos; anulação/retificação e política de reprodução pendentes",
       "note": "Registro de auditoria; itens ainda não publicados no banco jogável."
     }
   ]
