@@ -48,6 +48,33 @@ Arquivo de questões comentadas da Revista do Vestibular: https://www.revista.ve
 - [ ] Definir uma política de inclusão/publicação de enunciados e textos, com atribuição e respeito a eventuais restrições de reprodução.
 - [ ] Só depois da conclusão e revisão do inventário oficial, avaliar lacunas e autorizar a criação de questões autorais.
 
+## Diretório de fontes oficiais por edição — links iniciais verificados
+
+### ENEM
+Página-mestra com o arquivo histórico completo (1998–2025):  
+https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos
+
+Páginas de edição já localizadas:
+- [2025 — INEP](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2025)
+- [2024 — INEP](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2024)
+- [2023 — INEP](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2023)
+- [2022 — INEP](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2022)
+- [2021 — INEP](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021)
+- [2020 — INEP](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020)
+
+Essas páginas são pontos de entrada para provas e gabaritos; ainda é necessário registrar cada aplicação, caderno-base e gabarito final na matriz anual.
+
+### UERJ
+- [Portal oficial do vestibular estadual](https://sistema.vestibular.uerj.br/portal_vestibular_uerj/index_portal.php)
+- [2019 — 1º e 2º Exames de Qualificação](https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2019/exame_de_qualificacao/eq_prova_e_gabarito.php)
+- [2018 — 1º e 2º Exames de Qualificação](https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2018/exame_de_qualificacao/eq_prova_e_gabarito.php)
+- [2017 — 1º e 2º Exames de Qualificação](https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2017/exame_de_qualificacao/eq_prova_e_gabarito.php)
+- [2016 — 1º e 2º Exames de Qualificação](https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2016/exame_de_qualificacao/eq_prova_e_gabarito.php)
+- [2015 — 1º e 2º Exames de Qualificação](https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2015/exame_de_qualificacao/eq_prova_e_gabarito.php)
+- [2014 — 1º e 2º Exames de Qualificação](https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2014/exame_de_qualificacao/eq_prova_e_gabarito.php)
+- [2013 — 1º e 2º Exames de Qualificação](https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2013/exame_de_qualificacao/eq_prova_e_gabarito.php)
+- [2012 — 1º e 2º Exames de Qualificação](https://sistema.vestibular.uerj.br/portal_vestibular_uerj/2012/exame_de_qualificacao/eq_prova_e_gabarito.php)
+
 ## Matriz anual de cobertura — ENEM
 
 Marque cada edição como concluída somente após registrar as provas e os gabaritos oficiais, os cadernos equivalentes e as questões anuladas/retificadas. O status inicial é pendente; não significa que a edição não tenha material publicado.
