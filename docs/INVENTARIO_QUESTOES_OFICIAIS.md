@@ -55,6 +55,12 @@ Arquivo de questões comentadas da Revista do Vestibular: https://www.revista.ve
 - [ ] Definir uma política de inclusão/publicação de enunciados e textos, com atribuição e respeito a eventuais restrições de reprodução.
 - [ ] Só depois da conclusão e revisão do inventário oficial, avaliar lacunas e autorizar a criação de questões autorais.
 
+## Primeiro lote em auditoria
+
+- [Lote 01 — ENEM 2024, 1º dia, caderno 1 azul](LOTE_01_ENEM_2024_AUDITORIA.md): questões candidatas 6, 7 e 8 registradas com links oficiais de prova e gabarito.
+- Estado atual: origem localizada; a conferência final do gabarito, a auditoria de anulações/retificações e a política de reprodução ainda estão pendentes. **Essas questões ainda não estão no banco jogável**.
+- O inventário estruturado em `data/official-source-inventory.json` contém agora um registro granular desse lote. Não contar esses itens como publicados ou totalmente verificados.
+
 ## Diretório de fontes oficiais por edição — links iniciais verificados
 
 ### ENEM
