@@ -130,25 +130,25 @@
     "gabaritoVerificado": true
   },
   {
-    "id": "uerj-2024-ling-es-027",
+    "id": "uerj-2015-ling-007",
     "vestibular": "UERJ",
     "disciplina": "Linguagens",
-    "materia": "Língua Espanhola: antítese",
+    "materia": "Figuras de linguagem: antítese",
     "dificuldade": "Média",
-    "enunciado": "No fragmento “cuando nada es seguro, todo es posible”, a oposição entre “nada/todo” e “seguro/posible” constitui um recurso linguístico denominado:",
+    "enunciado": "No trecho “Pois assim como Amarildo é aquele que desapareceu das vistas [...] Cláudia é aquela que subitamente salta à vista”, o contraste entre as expressões destacadas aproxima dois casos noticiados. Esse recurso de linguagem é denominado:",
     "alternativas": [
-      "ironia.",
       "antítese.",
-      "metáfora.",
-      "hipérbole.",
-      "eufemismo."
+      "negação.",
+      "metonímia.",
+      "personificação.",
+      "hipérbole."
     ],
-    "respostaCorreta": 1,
-    "explicacao": "A antítese aproxima ideias opostas. “Nada” contrasta com “todo”, e “seguro” com “posible”.",
+    "respostaCorreta": 0,
+    "explicacao": "A antítese aproxima ideias opostas. “Desapareceu das vistas” e “salta à vista” contrastam desaparecimento e visibilidade para relacionar os dois casos.",
     "origem": "Oficial",
-    "anoProva": 2024,
-    "numeroQuestao": 27,
-    "fonteUrl": "https://www.revista.vestibular.uerj.br/arquivos/pdf/questao/45.pdf",
+    "anoProva": 2015,
+    "numeroQuestao": 7,
+    "fonteUrl": "https://www.revista.vestibular.uerj.br/questao/busca-questao-imprimir.php?aano=2015",
     "gabaritoVerificado": true
   },
   {
