@@ -608,5 +608,45 @@
         "Exame Discursivo (trilha separada)"
       ]
     }
+  ],
+  "itemAudits": [
+    {
+      "exam": "ENEM",
+      "year": 2024,
+      "application": "regular",
+      "day": 1,
+      "booklet": "Caderno 1 Azul",
+      "proofUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_PV_impresso_D1_CD1.pdf",
+      "answerKeyUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_GB_impresso_D1_CD1.pdf",
+      "auditFile": "docs/LOTE_01_ENEM_2024_AUDITORIA.md",
+      "items": [
+        {
+          "number": 6,
+          "area": "Linguagens",
+          "answerKeyLetter": "E",
+          "originStatus": "identificada-em-prova-oficial",
+          "answerStatus": "gabarito-indexado; conferência final pendente",
+          "playable": false
+        },
+        {
+          "number": 7,
+          "area": "Linguagens",
+          "answerKeyLetter": "C",
+          "originStatus": "identificada-em-prova-oficial",
+          "answerStatus": "gabarito-indexado; conferência final pendente",
+          "playable": false
+        },
+        {
+          "number": 8,
+          "area": "Linguagens",
+          "answerKeyLetter": "B",
+          "originStatus": "identificada-em-prova-oficial",
+          "answerStatus": "gabarito-indexado; conferência final pendente",
+          "playable": false
+        }
+      ],
+      "status": "lote-candidato-identificado; transcrição e validação final pendentes",
+      "note": "Registro de auditoria; não copiar enunciado/alternativas para o banco ativo sem validação e avaliação da política de reprodução."
+    }
   ]
 }
