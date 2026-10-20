@@ -48,6 +48,84 @@ Arquivo de questões comentadas da Revista do Vestibular: https://www.revista.ve
 - [ ] Definir uma política de inclusão/publicação de enunciados e textos, com atribuição e respeito a eventuais restrições de reprodução.
 - [ ] Só depois da conclusão e revisão do inventário oficial, avaliar lacunas e autorizar a criação de questões autorais.
 
+## Matriz anual de cobertura — ENEM
+
+Marque cada edição como concluída somente após registrar as provas e os gabaritos oficiais, os cadernos equivalentes e as questões anuladas/retificadas. O status inicial é pendente; não significa que a edição não tenha material publicado.
+
+| Ano | Provas/gabaritos inventariados | Questões deduplicadas e conferidas | Status |
+|---:|---|---|---|
+| 1998 | [ ] | [ ] | Pendente |
+| 1999 | [ ] | [ ] | Pendente |
+| 2000 | [ ] | [ ] | Pendente |
+| 2001 | [ ] | [ ] | Pendente |
+| 2002 | [ ] | [ ] | Pendente |
+| 2003 | [ ] | [ ] | Pendente |
+| 2004 | [ ] | [ ] | Pendente |
+| 2005 | [ ] | [ ] | Pendente |
+| 2006 | [ ] | [ ] | Pendente |
+| 2007 | [ ] | [ ] | Pendente |
+| 2008 | [ ] | [ ] | Pendente |
+| 2009 | [ ] | [ ] | Pendente |
+| 2010 | [ ] | [ ] | Pendente |
+| 2011 | [ ] | [ ] | Pendente |
+| 2012 | [ ] | [ ] | Pendente |
+| 2013 | [ ] | [ ] | Pendente |
+| 2014 | [ ] | [ ] | Pendente |
+| 2015 | [ ] | [ ] | Pendente |
+| 2016 | [ ] | [ ] | Pendente |
+| 2017 | [ ] | [ ] | Pendente |
+| 2018 | [ ] | [ ] | Pendente |
+| 2019 | [ ] | [ ] | Pendente |
+| 2020 | [ ] | [ ] | Pendente |
+| 2021 | [ ] | [ ] | Pendente |
+| 2022 | [ ] | [ ] | Pendente |
+| 2023 | [ ] | [ ] | Pendente |
+| 2024 | [ ] | [ ] | Pendente |
+| 2025 | [ ] | [ ] | Pendente |
+
+## Matriz de cobertura — UERJ
+
+A página de cada edição deve ser aberta para verificar quais etapas e exames foram realmente aplicados naquele ano. Não presumir que todos os anos têm duas qualificações nem que o formato foi idêntico.
+
+| Ano | 1º Exame de Qualificação | 2º Exame de Qualificação | Exame Discursivo | Status geral |
+|---:|---|---|---|---|
+| 2025 | [ ] | [ ] | [ ] | Pendente |
+| 2024 | [ ] | [ ] | [ ] | Pendente |
+| 2023 | [ ] | [ ] | [ ] | Pendente |
+| 2022 | [ ] | [ ] | [ ] | Pendente |
+| 2021 | [ ] | [ ] | [ ] | Pendente |
+| 2020 | [ ] | [ ] | [ ] | Pendente |
+| 2019 | [ ] | [ ] | [ ] | Pendente |
+| 2018 | [ ] | [ ] | [ ] | Pendente |
+| 2017 | [ ] | [ ] | [ ] | Pendente |
+| 2016 | [ ] | [ ] | [ ] | Pendente |
+| 2015 | [ ] | [ ] | [ ] | Pendente |
+| 2014 | [ ] | [ ] | [ ] | Pendente |
+| 2013 | [ ] | [ ] | [ ] | Pendente |
+| 2012 | [ ] | [ ] | [ ] | Pendente |
+| 2011 | [ ] | [ ] | [ ] | Pendente |
+| 2010 | [ ] | [ ] | [ ] | Pendente |
+| 2009 | [ ] | [ ] | [ ] | Pendente |
+| 2008 | [ ] | [ ] | [ ] | Pendente |
+| 2007 | [ ] | [ ] | [ ] | Pendente |
+| 2006 | [ ] | [ ] | [ ] | Pendente |
+| 2005 | [ ] | [ ] | [ ] | Pendente |
+| 2004 | [ ] | [ ] | [ ] | Pendente |
+| 2003 | [ ] | [ ] | [ ] | Pendente |
+| 2002 | [ ] | [ ] | [ ] | Pendente |
+| 2001 | [ ] | [ ] | [ ] | Pendente |
+| 2000 | [ ] | [ ] | [ ] | Pendente |
+
+Para anos anteriores a 2000, registrar as edições encontradas no portal oficial em uma linha adicional, preservando a nomenclatura histórica usada pela UERJ.
+
+## Ordem operacional dos lotes
+
+1. **Lote de inventário:** listar provas e gabaritos por edição, sem copiar enunciados para o banco.
+2. **Lote de validação:** conferir numeração, caderno-base, alternativa correta, anulações e retificações.
+3. **Lote de inclusão:** incorporar apenas itens cuja origem e resposta tenham sido verificadas e cujo uso/reprodução esteja adequadamente avaliado.
+4. **Lote de testes:** validar JSON, ids únicos, alternativas, índices de resposta, fontes e compatibilidade com o aplicativo.
+5. Repetir até cobrir o escopo. Somente então avaliar lacunas pedagógicas e liberar conteúdo autoral.
+
 ## Modelo de registro por prova
 
 | Campo | O que registrar |
