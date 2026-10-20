@@ -4,14 +4,19 @@
 
 Este documento controla a montagem do banco de questões **oficiais** do ENEM e da UERJ. Não criar nem incorporar novas questões autorais enquanto a auditoria do escopo oficial abaixo não estiver concluída.
 
-Uma questão só pode entrar como `"origem": "Oficial"` quando houver:
-- prova oficial identificada por exame, ano, aplicação/etapa e caderno;
-- número da questão na prova;
-- URL direta da prova oficial;
-- URL direta do gabarito oficial correspondente;
-- alternativa correta conferida no gabarito final (retificações devem prevalecer);
-- explicação revisada e compatível com o enunciado;
-- metadados que permitam rastrear a origem.
+## Política de liberação em etapas
+
+É permitido liberar no banco ativo uma questão identificada diretamente em uma prova oficial antes de concluir a auditoria de todo o inventário. Ela deve ser marcada como `"origem": "Oficial"` e `"statusVerificacao": "pendente"` até a revisão do gabarito e dos detalhes. Não é necessário esperar o inventário inteiro ficar completo para disponibilizar questões oficiais.
+
+Para entrar como questão de origem oficial, mesmo com revisão pendente, é obrigatório:
+- identificar exame, ano, aplicação/etapa e caderno;
+- registrar número da questão;
+- registrar URL oficial da prova e confirmar que o enunciado/alternativas foram retirados daquele documento;
+- registrar URL oficial do gabarito correspondente, se disponível;
+- não inventar nem presumir a resposta correta. Se o gabarito ainda não foi conferido, marcar `respostaVerificada: false` e impedir que o item seja apresentado como questão corrigida até revisão;
+- manter metadados rastreáveis.
+
+Após a conferência, atualizar o status para `"statusVerificacao": "verificada"`, confirmar a resposta e incluir uma explicação revisada. Questões autorais ou apenas inspiradas/adaptadas continuam fora desta liberação antecipada: elas não contam como questões retiradas da prova oficial.
 
 ## Escopo de cobertura
 
@@ -41,7 +46,7 @@ Arquivo de questões comentadas da Revista do Vestibular: https://www.revista.ve
 - [x] As 30 questões anteriores foram retiradas do banco ativo e arquivadas em `data/questions-authoral-draft.json` para não apresentar conteúdo autoral/adaptado como oficial.
 - [x] O banco ativo `questions.json` está temporariamente vazio até a inclusão de questões oficiais verificadas.
 - [x] Os dois itens antes marcados como oficiais foram reclassificados no arquivo de rascunhos: enunciados/alternativas eram adaptações, não reproduções fiéis verificadas da prova. Não contam como questões oficiais incluídas.
-- [ ] Incluir questões oficiais com prova e gabarito direto, após verificação item a item.
+- [ ] Incluir questões cuja origem na prova oficial esteja identificada, permitindo status de revisão pendente; não exibir correção como confirmada até conferir o gabarito.
 - [x] Criado `data/official-source-inventory.json` com 28 edições ENEM (1998–2025) e 26 anos UERJ (2000–2025), em status pendente ou parcial.
 - [x] Página oficial do ENEM 2024 aberta; URLs diretas de prova e gabarito de dois cadernos-base registradas, mas PDFs ainda não auditados.
 - [ ] ENEM: inventário por edição, aplicação, área, caderno-base e gabarito.
@@ -154,9 +159,10 @@ Para anos anteriores a 2000, registrar as edições encontradas no portal oficia
 
 1. **Lote de inventário:** listar provas e gabaritos por edição, sem copiar enunciados para o banco.
 2. **Lote de validação:** conferir numeração, caderno-base, alternativa correta, anulações e retificações.
-3. **Lote de inclusão:** incorporar apenas itens cuja origem e resposta tenham sido verificadas e cujo uso/reprodução esteja adequadamente avaliado.
-4. **Lote de testes:** validar JSON, ids únicos, alternativas, índices de resposta, fontes e compatibilidade com o aplicativo.
-5. Repetir até cobrir o escopo. Somente então avaliar lacunas pedagógicas e liberar conteúdo autoral.
+3. **Lote de inclusão antecipada:** incorporar itens identificados diretamente na prova oficial com metadados e status de revisão pendente; bloquear a exibição de resposta como confirmada até validar o gabarito.
+4. **Lote de validação:** conferir alternativa correta, anulações/retificações, explicação e política de uso/reprodução.
+5. **Lote de testes:** validar JSON, ids únicos, alternativas, status de verificação, fontes e compatibilidade com o aplicativo.
+6. Repetir até cobrir o escopo. Somente então avaliar lacunas pedagógicas e liberar conteúdo autoral.
 
 ## Modelo de registro por prova
 
